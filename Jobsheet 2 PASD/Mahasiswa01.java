@@ -10,10 +10,10 @@ public class Mahasiswa01 {
         System.out.println("IPK : "+ipk);
         System.out.println("Kelas : "+kelas);
     }
-    void ubahKelas(){
+    void ubahKelas(String kelasBaru){
         kelas = kelasBaru;
     }
-    void updateIpk(){
+    void updateIpk(double ipkBaru){
         ipk = ipkBaru;
         if (ipk < 0 || ipk > 4.0){
             System.out.println("IPK tidak valid. Harus antara 0.0 dan 4.0");
